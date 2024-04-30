@@ -1,9 +1,10 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
 import google.generativeai as genai
 from langchain_community.utilities import sql_database
 from langchain_core.messages import AIMessage, HumanMessage
+
+#from dotenv import load_dotenv
 
 # ------------ Loading environment, api_keys and Initializing the Gemini Model configuration files --------------------
 
