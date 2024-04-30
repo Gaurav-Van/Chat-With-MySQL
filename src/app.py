@@ -9,7 +9,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 load_dotenv()
 
-genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"]) # extracting api_key from streamlit cloud
 
 generation_config = {
     "temperature": 0.2,
