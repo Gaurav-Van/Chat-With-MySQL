@@ -4,13 +4,13 @@ import google.generativeai as genai
 from langchain_community.utilities import sql_database
 from langchain_core.messages import AIMessage, HumanMessage
 
-#from dotenv import load_dotenv
+#from dotenv import load_dotenv # when you are using it locally uncomment the import
 
 # ------------ Loading environment, api_keys and Initializing the Gemini Model configuration files --------------------
 
-#load_dotenv()
+#load_dotenv() # when you are using it locally uncomment this line
 
-genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"]) # extracting api_key from streamlit cloud
+genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"]) # extracting api_key from streamlit cloud. But if you are # when you are using it locally get the api key from .env file. 
 
 generation_config = {
     "temperature": 0.2,
