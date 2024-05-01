@@ -10,7 +10,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 #load_dotenv() # when you are using it locally uncomment this line
 
-genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"]) # extracting api_key from streamlit cloud. But if you are # when you are using it locally get the api key from .env file. 
+genai.configure(api_key=st.secrets["GEMINI_API_KEY_ID_1"]) # extracting api_key from streamlit cloud. # when you are using it locally get the api key from .env file. 
 
 generation_config = {
     "temperature": 0.2,
