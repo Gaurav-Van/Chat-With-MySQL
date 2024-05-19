@@ -1,5 +1,6 @@
 # Chat-With-MySQL
-Meet MySQL Assistant: Access database info seamlessly with natural language. No SQL expertise required. Simply ask questions, receive clear responses.<br><br>
+Meet MySQL Assistant: Access database info seamlessly with natural language. No SQL expertise required. Simply ask questions, receive clear responses.
+
 YouTube Link of the Demo of the App: https://www.youtube.com/watch?v=HZ6WFniL8W8
 <hr>
 
